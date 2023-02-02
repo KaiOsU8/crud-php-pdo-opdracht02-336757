@@ -97,17 +97,17 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
         <label for="">Pizzatoppings:</label><br>
         <input type="radio" name="pizzatoppings" id="" value="<?php echo $result->Pizzatoppings; ?>"><br><br>
 
-        <label for="peterselie">Peterselie:</label><br>
-        <input type="checkbox" name="peterselie" id="peterselie" value="<?php echo $result->Peterselie; ?>"><br><br>
+        <label for="kruiden1">Peterselie:</label><br>
+        <input type="checkbox" name="kruiden1" id="peterselie" value="<?php echo $result->Peterselie; ?>"><br><br>
 
-        <label for="oregano">Oregano:</label><br>
-        <input type="checkbox" name="oregano" id="oregano" value="<?php echo $result->Oregano; ?>"><br><br>
+        <label for="kruiden2">Oregano:</label><br>
+        <input type="checkbox" name="kruiden2" id="oregano" value="<?php echo $result->Oregano; ?>"><br><br>
 
-        <label for="chilipeper">Chilipeper:</label><br>
-        <input type="checkbox" name="chilipeper" id="chilipeper" value="<?php echo $result->Chiliflakes; ?>"><br><br>
+        <label for="kruiden3">Chilipeper:</label><br>
+        <input type="checkbox" name="kruiden3" id="chilipeper" value="<?php echo $result->Chiliflakes; ?>"><br><br>
         
-        <label for="zwartepeper">Zwartepeper:</label><br>
-        <input type="checkbox" name="zwartepeper" id="zwartepeper" value="<?php echo $result->Zwartepeper; ?>"><br><br>
+        <label for="kruiden4">Zwartepeper:</label><br>
+        <input type="checkbox" name="kruiden4" id="zwartepeper" value="<?php echo $result->Zwartepeper; ?>"><br><br>
 
         <input type="hidden" name="Id" value="<?php echo $result->Id; ?>">
 
